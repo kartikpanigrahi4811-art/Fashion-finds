@@ -1,87 +1,94 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fashion Finds ✨</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Finds | Affordable Style</title>
+<meta name="description" content="Discover affordable dresses, traditional outfits, bags, heels and fashion inspiration.">
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#fff7f8;color:#49333d}
-header{text-align:center;background:#f5dce5;padding:30px 12px}
-h1,h2{color:#914b69}
-nav{text-align:center;padding:15px;background:white;line-height:2.5}
-nav a{color:#914b69;text-decoration:none;border:1px solid #edcbd9;border-radius:20px;padding:7px;margin:3px}
-section{padding:20px 14px;max-width:850px;margin:auto}
-.intro{text-align:center;background:white;padding:20px;border-radius:15px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.card{background:white;border:1px solid #efdce3;border-radius:14px;padding:15px;text-align:center}
-.symbol{font-size:40px;background:#fff0f4;padding:12px;border-radius:12px}
-.card p{font-size:14px}
-.link{display:block;background:#914b69;color:white;text-decoration:none;padding:11px 5px;border-radius:9px;font-size:14px}
-footer{text-align:center;background:#f5dce5;padding:20px}
-small{color:#6e5a63}
-@media(max-width:350px){.grid{grid-template-columns:1fr}}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fff9f8;color:#382b30;line-height:1.6}
+header{background:linear-gradient(135deg,#f8dce5,#fff0e8);text-align:center;padding:38px 18px}
+header h1{font-family:Georgia,serif;font-size:38px;margin:0;color:#803e58}
+header p{margin:8px 0}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;padding:16px 10px;background:white;position:sticky;top:0}
+nav a{color:#803e58;text-decoration:none;border:1px solid #efd1dc;border-radius:22px;padding:7px 12px;font-size:13px}
+section{padding:26px 16px;max-width:950px;margin:auto}
+h2{font-family:Georgia,serif;color:#803e58;font-size:25px;margin:0 0 8px}
+.intro{color:#74656a;margin:0 0 18px}
+.hero{background:white;padding:22px;border-radius:18px;text-align:center;box-shadow:0 4px 18px #6d33400b}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.card{background:white;border:1px solid #f0dfe4;border-radius:15px;padding:15px;display:flex;flex-direction:column}
+.symbol{font-size:32px;background:#fff0f3;border-radius:12px;text-align:center;padding:12px;margin-bottom:10px}
+.card h3{margin:3px 0 6px;font-size:17px;color:#67394b}
+.card p{font-size:14px;color:#74656a;margin:0 0 12px}
+.link{display:block;text-align:center;margin-top:auto;background:#914d68;color:white;padding:10px 8px;border-radius:9px;text-decoration:none;font-size:14px}
+.tip{background:white;border-left:4px solid #d995af;border-radius:10px;padding:14px;margin:12px 0}
+.tip h3{margin:0 0 4px;color:#803e58;font-size:16px}
+.tip p{margin:0;font-size:14px}
+.notice{font-size:12px;color:#776b70;background:white;padding:14px;border-radius:10px}
+footer{text-align:center;padding:25px 15px;background:#f8e4e9;color:#674653;font-size:13px}
+@media(min-width:650px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}header h1{font-size:46px}}
 </style>
 </head>
-<body>
+<body id="top">
 <header>
 <h1>Fashion Finds ✨</h1>
-<p>Affordable fashion inspiration for every style 💗</p>
+<p>Affordable fashion inspiration for every style.</p>
+<p>♡ Discover your next favourite look ♡</p>
 </header>
 <nav>
-<a href="#western">Dresses</a>
-<a href="#traditional">Traditional</a>
-<a href="#bags">Bags</a>
-<a href="#heels">Heels</a>
-<a href="#accessories">Accessories</a>
+<a href="#western">Western</a><a href="#traditional">Traditional</a><a href="#bags">Bags</a><a href="#heels">Heels</a><a href="#accessories">Accessories</a><a href="#tips">Style Tips</a>
 </nav>
-<section>
-<div class="intro">
-<h2>Welcome to Fashion Finds 💕</h2>
-<p>Discover beautiful dresses, traditional outfits, bags, heels and accessories for your next favourite look.</p>
-</div>
-</section>
+<section><div class="hero">
+<h2>Welcome to Fashion Finds 💗</h2>
+<p>Your little corner for outfit inspiration, traditional elegance and everyday fashion finds. Explore styles and discover looks that feel like you.</p>
+</div></section>
 <section id="western">
-<h2>👗 Western Dresses</h2>
+<h2>👗 Western Dresses</h2><p class="intro">Pretty outfit ideas for outings, parties and everyday wear.</p>
 <div class="grid">
-<div class="card"><div class="symbol">👗</div><h3>Dress Find 1</h3><p>Explore this fashion pick.</p><a class="link" href="https://amzn.in/d/0hgkpnd5" target="_blank">View on Amazon ↗</a></div>
-<div class="card"><div class="symbol">🌸</div><h3>Dress Find 2</h3><p>Find a look for your next outing.</p><a class="link" href="https://amzn.in/d/0cAWTRXP" target="_blank">View on Amazon ↗</a></div>
-</div>
-</section>
+<article class="card"><div class="symbol">👗</div><h3>Dress Find 1</h3><p>Discover a dress for your next outing or special day.</p><a class="link" href="https://amzn.in/d/0hgkpnd5" target="_blank" rel="noopener">View on Amazon ↗</a></article>
+<article class="card"><div class="symbol">🌸</div><h3>Dress Find 2</h3><p>Explore another fashion pick for your wardrobe.</p><a class="link" href="https://amzn.in/d/0cAWTRXP" target="_blank" rel="noopener">View on Amazon ↗</a></article>
+</div></section>
 <section id="traditional">
-<h2>🥻 Traditional & Ethnic Wear</h2>
+<h2>🥻 Traditional & Ethnic Wear</h2><p class="intro">Indian outfits for festivals, family gatherings and celebrations.</p>
 <div class="grid">
-<div class="card"><div class="symbol">🥻</div><h3>Ethnic Style</h3><p>Explore traditional fashion.</p><a class="link" href="https://amzn.in/d/08vIV8fb" target="_blank">View on Amazon ↗</a></div>
-</div>
-</section>
+<article class="card"><div class="symbol">🥻</div><h3>Ethnic Style Find</h3><p>Explore this traditional fashion pick.</p><a class="link" href="https://amzn.in/d/08vIV8fb" target="_blank" rel="noopener">View on Amazon ↗</a></article>
+<article class="card"><div class="symbol">🌺</div><h3>Festive Outfit Ideas</h3><p>Pair traditional outfits with matching earrings and bangles.</p><a class="link" href="#tips">Read Style Tips ↓</a></article>
+</div></section>
 <section id="bags">
-<h2>👜 Bags</h2>
+<h2>👜 Bags</h2><p class="intro">Ideas for everyday bags and special occasions.</p>
 <div class="grid">
-<div class="card"><div class="symbol">👜</div><h3>Bag Find 1</h3><p>A bag to explore for your collection.</p><a class="link" href="https://amzn.in/d/0bqDSopy" target="_blank">View on Amazon ↗</a></div>
-<div class="card"><div class="symbol">👛</div><h3>Bag Find 2</h3><p>Another fashion find.</p><a class="link" href="https://amzn.in/d/0hY9foig" target="_blank">View on Amazon ↗</a></div>
-</div>
-</section>
+<article class="card"><div class="symbol">👜</div><h3>Bag Find 1</h3><p>A bag to explore for everyday or outing looks.</p><a class="link" href="https://amzn.in/d/0bqDSopy" target="_blank" rel="noopener">View on Amazon ↗</a></article>
+<article class="card"><div class="symbol">👛</div><h3>Bag Find 2</h3><p>Explore another pick for your collection.</p><a class="link" href="https://amzn.in/d/0hY9foig" target="_blank" rel="noopener">View on Amazon ↗</a></article>
+</div></section>
 <section id="heels">
-<h2>👠 Heels & Sandals</h2>
-<div class="grid"><div class="card"><div class="symbol">👠</div><h3>Footwear Ideas</h3><p>Choose footwear that looks good and feels comfortable.</p></div></div>
+<h2>👠 Heels & Sandals</h2><p class="intro">Footwear ideas to finish your outfit. Choose comfort as well as style.</p>
+<div class="grid"><article class="card"><div class="symbol">👡</div><h3>Footwear Inspiration</h3><p>Look for a comfortable fit and a stable sole.</p><a class="link" href="#tips">Explore Style Tips ↓</a></article></div>
 </section>
 <section id="accessories">
-<h2>💍 Accessories</h2>
+<h2>💍 Accessories</h2><p class="intro">Small details can make an outfit feel complete.</p>
 <div class="grid">
-<div class="card"><div class="symbol">✨</div><h3>Jewellery</h3><p>Try earrings and simple jewellery with your favourite outfits.</p></div>
-<div class="card"><div class="symbol">🎀</div><h3>Hair Accessories</h3><p>Clips and scrunchies add a finishing touch.</p></div>
-</div>
+<article class="card"><div class="symbol">✨</div><h3>Jewellery Ideas</h3><p>Try delicate jewellery with simple outfits.</p></article>
+<article class="card"><div class="symbol">🎀</div><h3>Hair Accessories</h3><p>Clips, headbands and scrunchies add a pretty touch.</p></article>
+<article class="card"><div class="symbol">🕶️</div><h3>Everyday Extras</h3><p>Sunglasses and a favourite bag can bring a look together.</p></article>
+</div></section>
+<section id="tips">
+<h2>💡 Simple Style Tips</h2><p class="intro">Ideas to help you put outfits together.</p>
+<div class="tip"><h3>1. Style a maxi dress</h3><p>Pair it with comfortable sandals and a small bag.</p></div>
+<div class="tip"><h3>2. Style a kurta set</h3><p>Try matching jhumkas, comfortable flats and a coordinating handbag.</p></div>
+<div class="tip"><h3>3. Choose a bag</h3><p>A compact bag suits light outings; a tote can suit busy days.</p></div>
+<div class="tip"><h3>4. Pick comfortable heels</h3><p>Check the fit and heel height before choosing footwear.</p></div>
+<div class="tip"><h3>5. Match colours</h3><p>Try one main colour with neutral accessories.</p></div>
+<div class="tip"><h3>6. Accessorise thoughtfully</h3><p>Simple accessories can balance outfits with bold prints.</p></div>
 </section>
 <section>
-<h2>💡 Simple Style Tips</h2>
-<p>♡ Pair a kurta with matching earrings.</p>
-<p>♡ Style a maxi dress with sandals and a small bag.</p>
-<p>♡ Choose colours and accessories that suit your style.</p>
+<h2>♡ A Little Note</h2>
+<p>Choose outfits that fit your comfort, budget and personal style. Product availability and prices may change, so check each Amazon listing before buying.</p>
+<div class="notice"><strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases. Some links may be affiliate links. I may earn from qualifying purchases at no extra cost to you.</div>
 </section>
-<section>
-<small>Affiliate disclosure: As an Amazon Associate I earn from qualifying purchases, if enrolled and using eligible affiliate links. Product prices and availability may change.</small>
-</section>
-<footer><strong>Fashion Finds ✨</strong><p>Find your style, one outfit at a time 💗</p></footer>
+<footer><p><strong>Fashion Finds ✨</strong></p><p>Affordable fashion inspiration, one find at a time.</p><p><a href="#top">Back to top ↑</a></p></footer>
 </body>
-</html>
+  </html>
+  
